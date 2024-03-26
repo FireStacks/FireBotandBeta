@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": false,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "outDir": "dist/",
+    "baseUrl": ".",
+    "paths": {
+      "@fire/lib/*": ["lib/*"],
+      "@fire/src/*": ["src/*"],
+      "@fire/config/*": ["config/*"],
+      "@fire/i18n/*": ["languages/*"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "./node_modules",
+    "./node_modules/*",
+    "./node_modules/@types/node/index.d.ts"
+  ]
+}
